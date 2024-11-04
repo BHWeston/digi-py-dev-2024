@@ -14,6 +14,7 @@ window.geometry('500x100')
 userInput = tk.Entry(text=0)
 userInput.grid(column=0, row=0)
 
+# This is a submit button that will run the "submitText" procedure 
 submitButton = tk.Button(text="Submit above", command=submitText)
 submitButton.grid(column=0, row=1)
 window.mainloop()

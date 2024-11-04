@@ -4,6 +4,8 @@
 import tkinter as tk
 
 ## FUNCTIONS ##
+
+# The below will only be ran when we click on the "clickButton" that is provided below:
 def helloWorld():
     print("Hello world")
 
